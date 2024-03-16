@@ -1,0 +1,266 @@
+{"@timestamp":"2023-11-23T14:10:45+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:10:45+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"dialing Google SMTP server: dial tcp 74.125.143.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:11:05+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:11:05+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"dialing Google SMTP server: dial tcp 142.250.102.27:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:12:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:12:00+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"dialing Google SMTP server: dial tcp 142.250.102.27:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:13:15+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:13:15+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"dialing Google SMTP server: dial tcp 142.250.102.27:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:14:30+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:14:30+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"dialing Google SMTP server: dial tcp 142.250.102.27:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:19:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:19:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T14:21:03+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.250.102.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:22:47+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.250.102.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:33:05+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:33:05+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T14:33:15+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"binding signup request body: Key: 'SendNotificationDto.Channel' Error:Field validation for 'Channel' failed on the 'required' tag"}
+{"@timestamp":"2023-11-23T14:33:29+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"binding signup request body: Key: 'SendNotificationDto.Channel' Error:Field validation for 'Channel' failed on the 'required' tag"}
+{"@timestamp":"2023-11-23T14:34:03+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T14:34:03+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T14:34:09+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.250.102.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:35:23+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.251.16.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:35:35+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.251.16.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T14:36:57+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.251.16.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T19:13:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:13:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:14:41+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 142.251.163.26:0: connect: can't assign requested address"}
+{"@timestamp":"2023-11-23T19:18:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:18:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:19:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:20:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:21:05+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:24:49+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:25:44+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:25:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:26:32+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51204-\u003e172.253.122.26:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-23T19:29:17+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:29:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:30:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:31:14+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:33:43+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51424-\u003e142.250.27.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-23T19:36:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-23T19:37:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-23T19:38:20+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51570-\u003e142.250.27.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T09:12:58+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T09:12:58+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to redis: dial tcp [::1]:6379: connect: connection refused"}
+{"@timestamp":"2023-11-24T09:13:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T09:13:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T09:14:58+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:50632-\u003e64.233.184.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T09:18:38+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:50645-\u003e142.251.5.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T09:40:45+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T09:40:45+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T10:36:18+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T10:36:18+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to redis: dial tcp [::1]:6379: connect: connection refused"}
+{"@timestamp":"2023-11-24T10:36:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T10:36:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T10:40:24+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51284-\u003e173.194.76.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T10:43:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T10:43:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T10:44:23+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51373-\u003e74.125.133.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T10:56:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T10:56:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T10:57:33+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:51506-\u003e66.102.1.27:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:10:29+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:10:29+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:19:56+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 74.125.193.26:587: connect: operation timed out"}
+{"@timestamp":"2023-11-24T12:23:41+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 74.125.193.26:587: connect: operation timed out"}
+{"@timestamp":"2023-11-24T12:28:22+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:28:22+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:35:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:35:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:37:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:37:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:43:49+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: dial tcp 64.233.166.26:587: connect: operation timed out"}
+{"@timestamp":"2023-11-24T12:45:13+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49487-\u003e64.233.166.26:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:46:05+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49498-\u003e209.85.202.26:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:50:44+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:50:44+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:52:34+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49836-\u003e64.233.167.27:465: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:52:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:52:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T12:53:42+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49855-\u003e74.125.71.26:25: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:57:11+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49891-\u003e142.251.168.27:25: read: connection reset by peer"}
+{"@timestamp":"2023-11-24T12:59:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T12:59:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T14:30:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T14:37:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T14:37:50+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T14:37:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T14:38:17+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T14:38:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T14:39:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-24T14:48:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T14:48:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T14:49:22+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T14:50:13+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T15:08:41+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T15:08:41+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T15:09:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T15:09:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T22:48:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T22:48:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T22:49:58+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"binding signup request body: Key: 'SendNotificationDto.Contact' Error:Field validation for 'Contact' failed on the 'valid_contact' tag"}
+{"@timestamp":"2023-11-24T22:50:23+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to 08105658203 unsuccessful, error: Post \"https://api.twilio.com/2010-04-01/Accounts/ACdc3b0b9e4a21174815d4f1038dd75f8d/Messages.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"@timestamp":"2023-11-24T22:51:34+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T22:51:34+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T22:51:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T22:51:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T22:52:21+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to +2348105658203 unsuccessful, error: Post \"https://api.twilio.com/2010-04-01/Accounts/ACdc3b0b9e4a21174815d4f1038dd75f8d/Messages.json\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"@timestamp":"2023-11-24T22:53:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T22:53:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-24T22:53:37+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-24T22:55:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T08:17:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T08:17:41+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T08:17:51+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T08:17:51+01:00"}
+{"@timestamp":"2023-11-25T08:19:50+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: read tcp 10.2.0.2:49436-\u003e108.177.119.26:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-25T09:03:29+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:06:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:08:28+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:08:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:09:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:09:47+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:12:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:12:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:16:15+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:16:15+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:17:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:17:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:26:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:26:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:26:54+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:26:54+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:27:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:27:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:28:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:28:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:50:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:50:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T09:59:01+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T09:59:01+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:01:12+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:01:12+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:04:01+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:04:01+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:04:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:04:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:06:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:06:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:07:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:08:12+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:08:18+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:08:48+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:08:48+01:00"}
+{"@timestamp":"2023-11-25T10:12:26+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:12:26+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:13:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:13:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:13:36+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:13:36+01:00"}
+{"@timestamp":"2023-11-25T10:13:36+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:13:36+01:00"}
+{"@timestamp":"2023-11-25T10:23:28+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:23:28+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:23:54+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:23:54+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:24:18+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:24:18+01:00"}
+{"@timestamp":"2023-11-25T10:24:18+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:24:18+01:00"}
+{"@timestamp":"2023-11-25T10:27:51+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:28:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:28:10+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:28:10+01:00"}
+{"@timestamp":"2023-11-25T10:28:10+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:28:10+01:00"}
+{"@timestamp":"2023-11-25T10:36:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:36:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:37:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:37:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:37:44+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:37:44+01:00"}
+{"@timestamp":"2023-11-25T10:37:44+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:37:44+01:00"}
+{"@timestamp":"2023-11-25T10:39:53+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-25T10:39:53+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-25T10:40:30+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:40:30+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:40:31+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:40:31+01:00"}
+{"@timestamp":"2023-11-25T10:40:31+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:40:31+01:00"}
+{"@timestamp":"2023-11-25T10:40:52+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: EMAILVERIFED"}
+{"@timestamp":"2023-11-25T10:40:52+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:40:52+01:00"}
+{"@timestamp":"2023-11-25T10:42:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
+{"@timestamp":"2023-11-25T10:42:37+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:42:37+01:00"}
+{"@timestamp":"2023-11-25T10:43:07+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T10:43:09+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to 08105658203 unsuccessful, error: Status: 400 - ApiError 21211: The 'To' number 0810565XXXX is not a valid phone number (null) More info: https://www.twilio.com/docs/errors/21211"}
+{"@timestamp":"2023-11-25T10:44:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T10:44:52+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to 08105658203 unsuccessful, error: Status: 400 - ApiError 21211: The 'To' number 0810565XXXX is not a valid phone number (null) More info: https://www.twilio.com/docs/errors/21211"}
+{"@timestamp":"2023-11-25T10:46:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T10:46:33+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T10:46:33+01:00"}
+{"@timestamp":"2023-11-25T10:58:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:58:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-25T10:58:47+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:58:47+01:00"}
+{"@timestamp":"2023-11-25T10:58:47+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:58:47+01:00"}
+{"@timestamp":"2023-11-25T10:59:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: EMAILVERIFED"}
+{"@timestamp":"2023-11-25T10:59:28+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:59:28+01:00"}
+{"@timestamp":"2023-11-25T10:59:49+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
+{"@timestamp":"2023-11-25T10:59:54+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T10:59:54+01:00"}
+{"@timestamp":"2023-11-25T11:00:18+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T11:00:26+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T11:00:26+01:00"}
+{"@timestamp":"2023-11-25T11:02:58+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T11:03:05+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T11:03:05+01:00"}
+{"@timestamp":"2023-11-25T11:03:18+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: PHONENUMBERVERIFIED"}
+{"@timestamp":"2023-11-25T11:03:23+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T11:03:23+01:00"}
+{"@timestamp":"2023-11-25T11:06:41+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: UPDATEPHONENUMBER"}
+{"@timestamp":"2023-11-25T11:06:48+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T11:06:48+01:00"}
+{"@timestamp":"2023-11-25T11:07:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: PHONENUMBERVERIFIED"}
+{"@timestamp":"2023-11-25T11:07:11+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"sms sent to +2348105658203 successfully on 2023-11-25T11:07:11+01:00"}
+{"@timestamp":"2023-11-25T11:10:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: SENDOTP"}
+{"@timestamp":"2023-11-25T11:10:31+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T11:10:31+01:00"}
+{"@timestamp":"2023-11-25T11:11:31+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: SENDOTP"}
+{"@timestamp":"2023-11-25T11:11:36+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T11:11:36+01:00"}
+{"@timestamp":"2023-11-25T11:13:11+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
+{"@timestamp":"2023-11-25T11:13:17+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-25T11:13:17+01:00"}
+{"@timestamp":"2023-11-27T17:47:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:47:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:49:29+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to spextechdev@gmail.com unsuccessful, error: read tcp 10.2.0.2:54586-\u003e173.194.76.26:587: read: connection reset by peer"}
+{"@timestamp":"2023-11-27T17:51:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:51:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:51:47+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to spextechdev@gmail.com unsuccessful, error: 555 5.5.2 Syntax error. Please visit\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications for more information. m5-20020a5d56c5000000b0033172f984eesm12484765wrw.50 - gsmtp"}
+{"@timestamp":"2023-11-27T17:53:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:53:48+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:56:24+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to spextechdev@gmail.com successfully on 2023-11-27T17:56:24+01:00"}
+{"@timestamp":"2023-11-27T17:56:48+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to spextechdev@gmail.com successfully on 2023-11-27T17:56:48+01:00"}
+{"@timestamp":"2023-11-27T17:57:12+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:57:12+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:57:20+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to spextechdev@gmail.com successfully on 2023-11-27T17:57:20+01:00"}
+{"@timestamp":"2023-11-27T17:58:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:58:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:58:52+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to spextechdev@gmail.com unsuccessful, error: 555 5.5.2 Syntax error. Please visit\n5.5.2  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.5.2 specifications for more information. p18-20020a05600c359200b0040b360cc65csm14522386wmq.0 - gsmtp"}
+{"@timestamp":"2023-11-27T17:59:11+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-27T17:59:11+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-27T17:59:19+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to spextechdev@gmail.com successfully on 2023-11-27T17:59:19+01:00"}
+{"@timestamp":"2023-11-30T10:47:14+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-30T10:47:14+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-30T10:49:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T10:49:24+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T10:49:51+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T10:49:51+01:00"}
+{"@timestamp":"2023-11-30T10:49:53+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T10:49:53+01:00"}
+{"@timestamp":"2023-11-30T12:19:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-30T12:19:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-30T12:35:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-30T12:35:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-30T13:20:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T13:20:33+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T13:20:33+01:00"}
+{"@timestamp":"2023-11-30T13:23:30+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T13:23:47+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T13:23:47+01:00"}
+{"@timestamp":"2023-11-30T13:36:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-30T13:36:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-30T13:36:23+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T13:36:27+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T13:36:27+01:00"}
+{"@timestamp":"2023-11-30T13:38:43+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-11-30T13:38:43+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2023-11-30T13:39:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2023-11-30T13:39:44+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T13:39:44+01:00"}
+{"@timestamp":"2023-11-30T13:40:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: EMAILVERIFED"}
+{"@timestamp":"2023-11-30T13:40:24+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2023-11-30T13:40:24+01:00"}
+{"@timestamp":"2023-12-12T00:52:36+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2023-12-12T00:52:36+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-01-14T23:21:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-01-14T23:21:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-01-14T23:22:16+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-01-14T23:22:16+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-01-28T00:14:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-01-28T00:14:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
