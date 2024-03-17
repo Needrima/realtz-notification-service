@@ -27,6 +27,7 @@ type Configuration struct {
 	MailgunDomain             string `mapstructure:"Mailgun_Domain"`
 	MailgunPrivateKey         string `mapstructure:"Mailgun_Private_Key"`
 	RedisRevokedTokensKey     string `mapstructure:"Redis_Revoked_Tokens_Key"`
+	JWTTokenKey               string `mapstructure:"JWT_Token_Key"`
 }
 
 var ServiceConfiguration = loadConfig(".")

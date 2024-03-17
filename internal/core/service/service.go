@@ -4,8 +4,10 @@ import (
 	"context"
 	"net/smtp"
 	"realtz-notification-service/internal/core/domain/dto"
+	"realtz-notification-service/internal/core/domain/entity"
 	emailHelper "realtz-notification-service/internal/core/helpers/email-helper"
 	mapper "realtz-notification-service/internal/core/helpers/mapper"
+	mongodbHelper "realtz-notification-service/internal/core/helpers/mongodb-helper"
 	smsHelper "realtz-notification-service/internal/core/helpers/sms-helper"
 	"realtz-notification-service/internal/ports"
 
@@ -66,4 +68,29 @@ func (s Service) SendNotification(SendNotificationDto dto.SendNotificationDto) (
 	}
 
 	return sendNotificationResponse, nil
+}
+
+func (s Service) GetNotifications(ctx context.Context, currentUser entity.User, amount, pageNo string) (interface{}, error) {
+	skip, limit, pageNoInt := mongodbHelper.GetSkipAndLimit(amount, pageNo)
+
+	notifications, err := s.dbPort.GetNotifications(ctx, currentUser, skip, limit)
+	if err != nil {
+		return nil, err
+	}
+
+	getNotificationsResponse := struct {
+		Notifications interface{} `json:"products"`
+		PreviousPage  int         `json:"previous_page"`
+		NextPage      int         `json:"next_page"`
+		Success       bool        `json:"success"`
+		Message       string      `json:"message"`
+	}{
+		Notifications: notifications,
+		PreviousPage:  pageNoInt - 1,
+		NextPage:      pageNoInt + 1,
+		Success:       true,
+		Message:       "Succesfully retrieved products",
+	}
+
+	return getNotificationsResponse, nil
 }

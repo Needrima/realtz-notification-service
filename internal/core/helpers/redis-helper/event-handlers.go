@@ -22,11 +22,12 @@ func SendNotificationHandler(evenJson string) {
 	data := extractDataFromEvent(event)
 
 	sendNotificationDto := dto.SendNotificationDto{
-		Message: data["message"].(string),
-		Subject: data["subject"].(string),
-		Channel: data["channel"].(string),
-		Contact: data["contact"].(string),
-		Type:    data["type"].(string),
+		UserReference: data["user_reference"].(string),
+		Message:       data["message"].(string),
+		Subject:       data["subject"].(string),
+		Channel:       data["channel"].(string),
+		Contact:       data["contact"].(string),
+		Type:          data["type"].(string),
 	}
 
 	services.NotificationService.SendNotification(sendNotificationDto)

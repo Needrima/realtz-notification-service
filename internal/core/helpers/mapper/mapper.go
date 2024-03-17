@@ -9,11 +9,12 @@ import (
 
 func CreateNotificationFromNotificationDto(SendNotificationDto dto.SendNotificationDto) entity.Notification {
 	return entity.Notification{
-		Reference: uuid.New().String(),
-		Contact:   SendNotificationDto.Contact,
-		Channel:   SendNotificationDto.Channel,
-		Message:   SendNotificationDto.Message,
-		Subject:   SendNotificationDto.Subject,
-		Type:      SendNotificationDto.Type,
+		Reference:     uuid.New().String(),
+		UserReference: SendNotificationDto.UserReference,
+		Contact:       SendNotificationDto.Contact,
+		Channel:       SendNotificationDto.Channel,
+		Message:       SendNotificationDto.Message,
+		Subject:       SendNotificationDto.Subject,
+		Type:          SendNotificationDto.Type,
 	}
 }

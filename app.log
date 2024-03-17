@@ -285,3 +285,9 @@
 {"@timestamp":"2024-03-17T23:03:33+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-03-17T23:03:33+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-03-17T23:03:37+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-17T23:20:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:20:55+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:20:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-17T23:35:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:35:39+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:35:46+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
