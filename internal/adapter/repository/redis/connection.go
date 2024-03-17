@@ -16,9 +16,9 @@ var RedisClient *redis.Client
 func ConnectToRedis() redisRepo {
 	logHelper.LogEvent(logHelper.InfoLog, "Establishing Redis connection")
 	RedisClient = redis.NewClient(&redis.Options{
-		Addr: configHelper.ServiceConfiguration.RedisConnString,
-		DB:   0,
-		Password: "",
+		Addr:     configHelper.ServiceConfiguration.RedisConnString,
+		DB:       0,
+		Password: configHelper.ServiceConfiguration.RedisConnPassword,
 	})
 
 	// Create a context with a timeout (adjust the timeout as needed)

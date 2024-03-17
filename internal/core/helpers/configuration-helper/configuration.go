@@ -11,6 +11,7 @@ type Configuration struct {
 	ServiceHost           string `mapstructure:"Service_Host"`
 	ServicePort           string `mapstructure:"Service_Port"`
 	RedisConnString       string `mapstructure:"Redis_Connection_String"`
+	RedisConnPassword     string `mapstructure:"Redis_Connection_Password"`
 	LogDir                string `mapstructure:"Log_Dir"`
 	LogFile               string `mapstructure:"Log_File"`
 	GoogleSmtpHost        string `mapstructure:"Google_Smtp_Host"`
