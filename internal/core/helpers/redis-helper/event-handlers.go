@@ -26,6 +26,7 @@ func SendNotificationHandler(evenJson string) {
 		Subject: data["subject"].(string),
 		Channel: data["channel"].(string),
 		Contact: data["contact"].(string),
+		Type:    data["type"].(string),
 	}
 
 	services.NotificationService.SendNotification(sendNotificationDto)

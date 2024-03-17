@@ -3,8 +3,17 @@ package helpers
 import (
 	"realtz-notification-service/internal/core/domain/dto"
 	"realtz-notification-service/internal/core/domain/entity"
+
+	"github.com/google/uuid"
 )
 
-func CreateNotificationFromNotificationDto(SendNotificationDto dto.SendNotificationDto) entity.SendNotification {
-	return entity.SendNotification(SendNotificationDto)
+func CreateNotificationFromNotificationDto(SendNotificationDto dto.SendNotificationDto) entity.Notification {
+	return entity.Notification{
+		Reference: uuid.New().String(),
+		Contact:   SendNotificationDto.Contact,
+		Channel:   SendNotificationDto.Channel,
+		Message:   SendNotificationDto.Message,
+		Subject:   SendNotificationDto.Subject,
+		Type:      SendNotificationDto.Type,
+	}
 }

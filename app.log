@@ -276,3 +276,12 @@
 {"@timestamp":"2024-03-17T13:46:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
 {"@timestamp":"2024-03-17T13:48:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-03-17T13:48:31+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-17T13:53:38+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T13:53:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-17T13:55:36+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2024-03-17T13:55:42+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-17T13:55:42+01:00"}
+{"@timestamp":"2024-03-17T14:02:03+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2024-03-17T14:02:26+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-17T14:02:26+01:00"}
+{"@timestamp":"2024-03-17T23:03:33+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:03:33+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-17T23:03:37+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}

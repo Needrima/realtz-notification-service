@@ -4,6 +4,7 @@ import (
 	"os"
 	handler "realtz-notification-service/internal/adapter/http-handler"
 	emailRepo "realtz-notification-service/internal/adapter/repository/email"
+	mongoRepo "realtz-notification-service/internal/adapter/repository/mongodb"
 	redisRepo "realtz-notification-service/internal/adapter/repository/redis"
 	smsRepo "realtz-notification-service/internal/adapter/repository/sms"
 	"realtz-notification-service/internal/adapter/routes"
@@ -22,6 +23,7 @@ func main() {
 	validationHelper.InitBindingValidation()
 
 	// start api on database level (mongodb and redis)
+	mongoRepo := mongoRepo.ConnectToMongoDB()
 	redisRepo := redisRepo.ConnectToRedis()
 
 	// connect to gmail smtp
@@ -34,7 +36,7 @@ func main() {
 	twilioSmsClient := smsRepo.ConnectToTwilio()
 
 	// start api on service level
-	service := services.NewService(gmailSmtpClient, mailgunClient, twilioSmsClient, redisRepo)
+	service := services.NewService(gmailSmtpClient, mailgunClient, twilioSmsClient, mongoRepo, redisRepo)
 
 	// start api on http level
 	handler := handler.NewHTTPHandler(service)
