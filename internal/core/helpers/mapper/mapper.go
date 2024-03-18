@@ -3,6 +3,7 @@ package helpers
 import (
 	"realtz-notification-service/internal/core/domain/dto"
 	"realtz-notification-service/internal/core/domain/entity"
+	"time"
 
 	"github.com/google/uuid"
 )
@@ -16,5 +17,6 @@ func CreateNotificationFromNotificationDto(SendNotificationDto dto.SendNotificat
 		Message:       SendNotificationDto.Message,
 		Subject:       SendNotificationDto.Subject,
 		Type:          SendNotificationDto.Type,
+		CreatedOn: time.Now().Format(time.RFC3339),
 	}
 }

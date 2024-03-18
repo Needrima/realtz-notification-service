@@ -43,11 +43,11 @@ func NewHTTPHandler(httpPort ports.HTTPPort) HttpHandler {
 // @Accept json
 // @Produce json
 // @Param Token header string true "Authentication token"
-// @Param amount path string true "amount of products to be queried"
-// @Param page_no path string true "page to be gotten e.g if amount param is 8, 1 means first 8 products, 2 means from 9th to 16th product"
-// @Success 200 {object} interface{} "Successfully retrieved products"
+// @Param amount path string true "amount of notifications to be queried"
+// @Param page_no path string true "page to be gotten e.g if amount param is 8, 1 means first 8 products, 2 means from 9th to 16th notification"
+// @Success 200 {object} interface{} "Successfully retrieved notifications"
 // @Failure 500 {object} errorHelper.ServiceError "something went wrong"
-// @Router /auth/get-home-product/{amount}/{page_no} [get]
+// @Router /auth/get-notifications/{amount}/{page_no} [get]
 func (h HttpHandler) GetHomeProducts(c *gin.Context) {
 	amount := c.Param("amount")
 	pageNo := c.Param("page_no")

@@ -8,6 +8,7 @@ type Notification struct {
 	Message       string `json:"message" binding:"required"`
 	Subject       string `json:"subject" binding:"required"`
 	Type          string `json:"type" bson:"type" binding:"required,eq=in_app|eq=sending"` // in_app for notifications that show on frontend too and sending for those that are sent as email or sms
+	CreatedOn string `json:"created_on" bson:"created_on"`
 }
 
 type User struct {

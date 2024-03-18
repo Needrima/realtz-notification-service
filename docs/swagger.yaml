@@ -1,0 +1,48 @@
+definitions:
+  helpers.ServiceError:
+    properties:
+      code:
+        type: integer
+      message:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /auth/get-notifications/{amount}/{page_no}:
+    get:
+      consumes:
+      - application/json
+      description: Get first n notificatiobs n is the amount parameter
+      parameters:
+      - description: Authentication token
+        in: header
+        name: Token
+        required: true
+        type: string
+      - description: amount of notifications to be queried
+        in: path
+        name: amount
+        required: true
+        type: string
+      - description: page to be gotten e.g if amount param is 8, 1 means first 8 products,
+          2 means from 9th to 16th notification
+        in: path
+        name: page_no
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Successfully retrieved notifications
+          schema:
+            type: object
+        "500":
+          description: something went wrong
+          schema:
+            $ref: '#/definitions/helpers.ServiceError'
+      summary: Get Notifications
+      tags:
+      - Notification
+swagger: "2.0"
