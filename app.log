@@ -303,3 +303,18 @@
 {"@timestamp":"2024-03-18T17:09:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-03-18T17:09:56+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-03-18T17:09:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-19T03:11:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-19T03:11:01+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-19T03:11:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-19T03:16:49+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-19T03:16:49+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-19T03:16:51+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-19T03:20:32+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2024-03-19T03:20:43+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-19T03:20:43+01:00"}
+{"@timestamp":"2024-03-19T03:20:43+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: 87e73c76-e7b5-4f22-95b4-9994974e82be"}
+{"@timestamp":"2024-03-19T03:20:51+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: EMAILVERIFED"}
+{"@timestamp":"2024-03-19T03:20:59+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-19T03:20:59+01:00"}
+{"@timestamp":"2024-03-19T03:20:59+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: a8d7aa9e-103f-4258-a7e2-b593d312184a"}
+{"@timestamp":"2024-03-19T03:21:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
+{"@timestamp":"2024-03-19T03:21:16+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-19T03:21:16+01:00"}
+{"@timestamp":"2024-03-19T03:21:16+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: abecd823-bf41-4697-9fb4-d803988e2026"}

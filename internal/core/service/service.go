@@ -73,23 +73,45 @@ func (s Service) SendNotification(SendNotificationDto dto.SendNotificationDto) (
 func (s Service) GetNotifications(ctx context.Context, currentUser entity.User, amount, pageNo string) (interface{}, error) {
 	skip, limit, pageNoInt := mongodbHelper.GetSkipAndLimit(amount, pageNo)
 
-	notifications, err := s.dbPort.GetNotifications(ctx, currentUser, skip, limit)
+	notifications, documentsCount, err := s.dbPort.GetNotifications(ctx, currentUser, skip, limit)
 	if err != nil {
 		return nil, err
 	}
 
 	getNotificationsResponse := struct {
 		Notifications interface{} `json:"products"`
+		HasPrevious   bool        `json:"has_previous"`
 		PreviousPage  int         `json:"previous_page"`
+		HasNext       bool        `json:"has_next"`
 		NextPage      int         `json:"next_page"`
-		Success       bool        `json:"success"`
-		Message       string      `json:"message"`
+		LastPage      int
+		Success       bool   `json:"success"`
+		Message       string `json:"message"`
 	}{
 		Notifications: notifications,
+		HasPrevious:   false,
 		PreviousPage:  pageNoInt - 1,
+		HasNext:       false,
 		NextPage:      pageNoInt + 1,
 		Success:       true,
 		Message:       "Succesfully retrieved products",
+	}
+
+	if pageNoInt > 1 {
+		getNotificationsResponse.HasPrevious = true
+	}
+
+	// compute last page
+	var lastPage int64
+	if documentsCount%int64(limit) == 0 {
+		getNotificationsResponse.LastPage = int(documentsCount / int64(limit))
+	} else {
+		getNotificationsResponse.LastPage = int((documentsCount / int64(limit)) + 1)
+	}
+
+	// check if there is a next page based on last page
+	if int64(pageNoInt) < lastPage {
+		getNotificationsResponse.HasNext = true
 	}
 
 	return getNotificationsResponse, nil

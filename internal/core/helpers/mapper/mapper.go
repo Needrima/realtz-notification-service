@@ -17,6 +17,6 @@ func CreateNotificationFromNotificationDto(SendNotificationDto dto.SendNotificat
 		Message:       SendNotificationDto.Message,
 		Subject:       SendNotificationDto.Subject,
 		Type:          SendNotificationDto.Type,
-		CreatedOn: time.Now().Format(time.RFC3339),
+		CreatedOn:     time.Now().Format(time.RFC3339),
 	}
 }
