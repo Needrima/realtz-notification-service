@@ -24,7 +24,7 @@ func SetupRouter(handler handler.HttpHandler) *gin.Engine {
 	notificationsApiAuthGroup := router.Group("/api/notifications/auth")
 	notificationsApiAuthGroup.Use(middlewares.JWTMiddleware)
 	{
-		notificationsApiAuthGroup.GET("/get-notifications/:amount/:page_no", handler.GetHomeProducts)
+		notificationsApiAuthGroup.GET("/get-notifications/:amount/:page_no", handler.GetNotifications)
 	}
 
 	// for swagger docs

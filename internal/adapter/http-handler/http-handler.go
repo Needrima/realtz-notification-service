@@ -48,7 +48,7 @@ func NewHTTPHandler(httpPort ports.HTTPPort) HttpHandler {
 // @Success 200 {object} interface{} "Successfully retrieved notifications"
 // @Failure 500 {object} errorHelper.ServiceError "something went wrong"
 // @Router /auth/get-notifications/{amount}/{page_no} [get]
-func (h HttpHandler) GetHomeProducts(c *gin.Context) {
+func (h HttpHandler) GetNotifications(c *gin.Context) {
 	amount := c.Param("amount")
 	pageNo := c.Param("page_no")
 
