@@ -318,3 +318,45 @@
 {"@timestamp":"2024-03-19T03:21:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
 {"@timestamp":"2024-03-19T03:21:16+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-19T03:21:16+01:00"}
 {"@timestamp":"2024-03-19T03:21:16+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: abecd823-bf41-4697-9fb4-d803988e2026"}
+{"@timestamp":"2024-03-20T16:27:14+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-20T16:27:15+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-20T16:27:16+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-22T06:20:13+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T06:20:26+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T06:20:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-22T06:22:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERCREATED"}
+{"@timestamp":"2024-03-22T06:22:23+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-22T06:22:23+01:00"}
+{"@timestamp":"2024-03-22T06:22:24+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: 57ec23b8-b360-4991-a8f7-16a3e9ff773a"}
+{"@timestamp":"2024-03-22T06:27:03+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T06:27:34+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"pinging mongo DB: server selection error: server selection timeout, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: e-shop-test-shard-00-02.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-00.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-01.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, ] }"}
+{"@timestamp":"2024-03-22T06:27:53+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T06:28:24+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"pinging mongo DB: server selection error: server selection timeout, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: e-shop-test-shard-00-02.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-00.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-01.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, ] }"}
+{"@timestamp":"2024-03-22T06:28:42+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T06:29:12+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"pinging mongo DB: server selection error: server selection timeout, current topology: { Type: ReplicaSetNoPrimary, Servers: [{ Addr: e-shop-test-shard-00-00.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-01.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, { Addr: e-shop-test-shard-00-02.csoa6.mongodb.net:27017, Type: Unknown, Last error: context deadline exceeded }, ] }"}
+{"@timestamp":"2024-03-22T13:19:19+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T13:19:20+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T13:19:21+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-22T13:22:02+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: SENDOTP"}
+{"@timestamp":"2024-03-22T13:22:05+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-22T13:22:05+01:00"}
+{"@timestamp":"2024-03-22T13:22:05+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: b7ae8e52-cc2e-4507-8d67-33380aee7736"}
+{"@timestamp":"2024-03-22T14:52:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T14:52:00+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T14:52:05+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to redis: dial tcp: lookup redis-14070.c327.europe-west1-2.gce.cloud.redislabs.com: i/o timeout"}
+{"@timestamp":"2024-03-22T14:54:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T14:54:57+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T14:54:59+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-22T14:57:13+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
+{"@timestamp":"2024-03-22T14:57:17+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-22T14:57:17+01:00"}
+{"@timestamp":"2024-03-22T14:57:17+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: 0bb55580-737a-41af-ac45-46457aaab345"}
+{"@timestamp":"2024-03-22T16:07:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T16:07:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T16:07:28+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-03-22T22:10:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T22:10:27+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T22:10:27+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to redis: dial tcp: lookup redis-14070.c327.europe-west1-2.gce.cloud.redislabs.com: no such host"}
+{"@timestamp":"2024-03-22T22:11:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T22:11:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-22T22:11:15+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to redis: dial tcp 35.205.50.111:14070: i/o timeout"}
+{"@timestamp":"2024-03-23T00:46:52+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-23T00:47:09+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-03-23T00:47:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
