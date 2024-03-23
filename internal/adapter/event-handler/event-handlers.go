@@ -1,4 +1,4 @@
-package helpers
+package handler
 
 import (
 	"realtz-notification-service/internal/core/domain/dto"
