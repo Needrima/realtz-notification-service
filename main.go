@@ -13,6 +13,7 @@ import (
 	redisHelper "realtz-notification-service/internal/core/helpers/redis-helper"
 	validationHelper "realtz-notification-service/internal/core/helpers/validation-helper"
 	services "realtz-notification-service/internal/core/service"
+	eventHandler "realtz-notification-service/internal/adapter/event-handler"
 )
 
 func main() {
@@ -52,31 +53,31 @@ func main() {
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.USERCREATED, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.USERCREATED, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.USERLOGGEDIN, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.USERLOGGEDIN, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.SENDOTP, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.SENDOTP, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.UPDATEPHONENUMBER, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.UPDATEPHONENUMBER, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.EMAILVERIFED, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.EMAILVERIFED, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.PHONENUMBERVERIFIED, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.PHONENUMBERVERIFIED, eventHandler.SendNotificationHandler)
 	}()
 
 	go func() {
-		redisRepo.SubsribeToEvent(redisHelper.PRODUCTADDED, redisHelper.SendNotificationHandler)
+		redisRepo.SubsribeToEvent(redisHelper.PRODUCTADDED, eventHandler.SendNotificationHandler)
 	}()
 
 	select {}
