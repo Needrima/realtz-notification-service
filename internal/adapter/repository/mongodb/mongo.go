@@ -35,7 +35,7 @@ func (m mongoRepo) CreateNotification(ctx context.Context, notification entity.N
 }
 
 func (m mongoRepo) GetNotifications(ctx context.Context, currentUser entity.User, skip, limit int) (interface{}, int64, error) {
-	matchStage := bson.M{"$match": bson.M{"user_reference": currentUser.Reference}}
+	matchStage := bson.M{"$match": bson.M{"user_reference": currentUser.Reference, "type": "in_app"}}
 	sortStage := bson.M{"$sort": bson.M{"created_on": -1}}
 	skipStage := bson.M{"$skip": skip}
 	limitStage := bson.M{"$limit": limit}
