@@ -79,7 +79,7 @@ func (s Service) GetNotifications(ctx context.Context, currentUser entity.User, 
 	}
 
 	getNotificationsResponse := struct {
-		Notifications interface{} `json:"products"`
+		Notifications interface{} `json:"notifications"`
 		HasPrevious   bool        `json:"has_previous"`
 		PreviousPage  int         `json:"previous_page"`
 		HasNext       bool        `json:"has_next"`
@@ -94,7 +94,7 @@ func (s Service) GetNotifications(ctx context.Context, currentUser entity.User, 
 		HasNext:       false,
 		NextPage:      pageNoInt + 1,
 		Success:       true,
-		Message:       "Succesfully retrieved products",
+		Message:       "Succesfully retrieved notifications",
 	}
 
 	if pageNoInt > 1 {
