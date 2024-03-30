@@ -80,5 +80,9 @@ func main() {
 		redisRepo.SubsribeToEvent(redisHelper.PRODUCTADDED, eventHandler.SendNotificationHandler)
 	}()
 
+	go func() {
+		redisRepo.SubsribeToEvent(redisHelper.PASSWORDRESET, eventHandler.SendNotificationHandler)
+	}()
+
 	select {}
 }
