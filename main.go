@@ -2,6 +2,7 @@ package main
 
 import (
 	"os"
+	eventHandler "realtz-notification-service/internal/adapter/event-handler"
 	handler "realtz-notification-service/internal/adapter/http-handler"
 	emailRepo "realtz-notification-service/internal/adapter/repository/email"
 	mongoRepo "realtz-notification-service/internal/adapter/repository/mongodb"
@@ -13,7 +14,6 @@ import (
 	redisHelper "realtz-notification-service/internal/core/helpers/redis-helper"
 	validationHelper "realtz-notification-service/internal/core/helpers/validation-helper"
 	services "realtz-notification-service/internal/core/service"
-	eventHandler "realtz-notification-service/internal/adapter/event-handler"
 )
 
 func main() {
@@ -82,6 +82,10 @@ func main() {
 
 	go func() {
 		redisRepo.SubsribeToEvent(redisHelper.PASSWORDRESET, eventHandler.SendNotificationHandler)
+	}()
+
+	go func() {
+		redisRepo.SubsribeToEvent(redisHelper.USERRATED, eventHandler.SendNotificationHandler)
 	}()
 
 	select {}
