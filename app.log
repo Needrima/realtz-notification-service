@@ -417,3 +417,21 @@
 {"@timestamp":"2024-03-30T02:08:47+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: PASSWORDRESET"}
 {"@timestamp":"2024-03-30T02:09:44+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"mail sent to oyebodeamirdeen@gmail.com successfully on 2024-03-30T02:09:44+01:00"}
 {"@timestamp":"2024-03-30T02:09:45+01:00","level":"SUCCESS","app_name":"realtz-notification-service","message":"successfully created notification. Reference: 5ecb8644-7851-4e5a-a14c-bc0c37d811c5"}
+{"@timestamp":"2024-04-08T15:12:37+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-08T15:12:40+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-08T15:12:41+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-04-08T15:20:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:20:22+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-08T15:27:18+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:27:21+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-08T15:38:03+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-08T15:38:06+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-08T15:38:11+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-04-08T15:39:35+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:39:38+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-08T15:42:47+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:42:49+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-08T15:43:43+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:43:43+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-08T15:46:25+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERRATED"}
+{"@timestamp":"2024-04-08T15:46:25+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
