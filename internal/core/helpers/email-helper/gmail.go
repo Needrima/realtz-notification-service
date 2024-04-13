@@ -29,6 +29,13 @@ func (e *GmailEmailClient) SendMail(receiver, subject, message string) error {
 		"\r\n" +
 		message + "\r\n")
 
+	// msg = fmt.Sprintf("From: %s\r\n", from) +
+	// fmt.Sprintf("To: %s\r\n", to) +
+	// fmt.Sprintf("Subject: %s\r\n", subject) +
+	// "MIME-Version: 1.0\r\n" +
+	// "Content-Type: text/html; charset=\"utf-8\"\r\n\r\n" +
+	// body
+
 	err := smtp.SendMail(configHelper.ServiceConfiguration.GoogleSmtpHost+":"+configHelper.ServiceConfiguration.GoogleSmtpPort, e.gmailClient, from, to, msg)
 	if err != nil {
 		logHelper.LogEvent(logHelper.ErrorLog, fmt.Sprintf("sending email to %s unsuccessful, error: %v", receiver, err))
