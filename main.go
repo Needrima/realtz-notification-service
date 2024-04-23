@@ -88,5 +88,9 @@ func main() {
 		redisRepo.SubsribeToEvent(redisHelper.USERRATED, eventHandler.SendNotificationHandler)
 	}()
 
+	go func() {
+		redisRepo.SubsribeToEvent(redisHelper.ACCOUNTSWITCH, eventHandler.SendNotificationHandler)
+	}()
+
 	select {}
 }
