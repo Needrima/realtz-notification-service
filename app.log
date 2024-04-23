@@ -459,3 +459,10 @@
 {"@timestamp":"2024-04-13T22:46:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-04-13T22:46:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
 {"@timestamp":"2024-04-13T22:46:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-04-23T12:06:34+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-23T12:06:49+01:00","level":"DANGER","app_name":"realtz-notification-service","message":"could not connect to mongoDB: error parsing uri: lookup _mongodb._tcp.e-shop-test.csoa6.mongodb.net on 192.168.188.163:53: no such host"}
+{"@timestamp":"2024-04-23T12:08:54+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-23T12:09:06+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-23T12:09:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
+{"@timestamp":"2024-04-23T12:16:45+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: ACCOUNTSWITCH"}
+{"@timestamp":"2024-04-23T12:17:03+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Local Error, closing transmission channel"}
