@@ -456,3 +456,6 @@
 {"@timestamp":"2024-04-13T22:24:35+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
 {"@timestamp":"2024-04-13T22:25:31+01:00","level":"INFO","app_name":"realtz-notification-service","message":"received data from channle: USERLOGGEDIN"}
 {"@timestamp":"2024-04-13T22:25:34+01:00","level":"ERROR","app_name":"realtz-notification-service","message":"sending email to oyebodeamirdeen@gmail.com unsuccessful, error: 421 Service not available"}
+{"@timestamp":"2024-04-13T22:46:04+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-13T22:46:08+01:00","level":"INFO","app_name":"realtz-notification-service","message":"Establishing Redis connection"}
+{"@timestamp":"2024-04-13T22:46:10+01:00","level":"INFO","app_name":"realtz-notification-service","message":"starting server on port 30001"}
